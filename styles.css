@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #e4f2f7; 
+}
+
+.contain {
+    position: relative; 
+    width: 100vw; 
+    height: 100vh;
+}
+
+.rosa {
+    position: absolute;
+    bottom: -100px; 
+    width: 90px;
+    height: 90px;
+    animation: flotacion 10s linear infinite;
+    margin: 20px;
+    opacity: 0.7;
+}
+
+@keyframes flotacion {
+    0% {
+        transform: translateX(0) translateY(0);
+        opacity: 0;
+    }
+    1% {
+        transform: translateX(0) translateY(0);
+        opacity: 0.5;
+    }
+    25% {
+        transform: translateX(20vw) translateY(-25vh);
+    }
+    50% {
+        transform: translateX(-20vw) translateY(-50vh);
+    }
+    75% {
+        transform: translateX(20vw) translateY(-75vh);
+    }
+    90% {
+        transform: translateX(5vw) translateY(-90vh); 
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateX(0) translateY(-100vh); 
+        opacity: 0;
+    }
+}
+
+.rosa:nth-child(1) {
+    animation-duration: 18s;
+    animation-delay: 0s;
+    left: 10%;
+}
+.rosa:nth-child(2) {
+    animation-duration: 10s;
+    animation-delay: 2s;
+    left: 20%;
+}
+.rosa:nth-child(3) {
+    animation-duration: 14s;
+    animation-delay: 1s;
+    left: 30%;
+}
+.rosa:nth-child(4) {
+    animation-duration: 8s;
+    animation-delay: 0s;
+    left: 40%;
+}
+.rosa:nth-child(5) {
+    animation-duration: 12s;
+    animation-delay: 3s;
+    left: 50%;
+}
+.rosa:nth-child(6) {
+    animation-duration: 9s;
+    animation-delay: 0s;
+    left: 60%;
+}
+.rosa:nth-child(7) {
+    animation-duration: 11s;
+    animation-delay: 2s;
+    left: 70%;
+}
+.rosa:nth-child(8) {
+    animation-duration: 25s;
+    animation-delay: 1s;
+    left: 80%;
+}
+.rosa:nth-child(9) {
+    animation-duration: 10s;
+    animation-delay: 0s;
+    left: 90%;
+}
